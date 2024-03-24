@@ -1,6 +1,6 @@
 # cv projects with cascade
 
-this project is a collection of several computer vision projects with opencv-python, utilizing haar cascade classifications.
+this repository is a collection of several computer vision projects with opencv-python, utilizing haar cascade classifications.
 
 <img src='images/cats1.jpg' width=200>
 <img src='output/cat1output.png' width=200>
