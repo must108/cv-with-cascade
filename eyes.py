@@ -13,5 +13,6 @@ for(i, (x, y, w, h)) in enumerate(rects):
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 0, 255), 2)
     cv2.putText(image, "Eye #{}".format(i + 1), (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 0, 255), 2)
 
+cv2.namedWindow('Eyes', cv2.WINDOW_NORMAL)
 cv2.imshow('Eyes', image)
 cv2.waitKey(0)
